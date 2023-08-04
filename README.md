@@ -1,6 +1,6 @@
 # Drone_simulation_from_scratch
 hey there! 
-This tutorial is based on our project and experience from our internship at DRDO.
+This tutorial is based on our project and experience from our internship at DRDO./n
 We have worked on :
 "Autonomous collision avoidance of drone swarm using image processing"
 This tutorial will guide you on following topics:
