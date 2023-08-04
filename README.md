@@ -1,4 +1,3 @@
-# Drone_simulation_from_scratch
 hey there! 
 This tutorial is based on our project and experience from our internship at DRDO.
 We have worked on :
