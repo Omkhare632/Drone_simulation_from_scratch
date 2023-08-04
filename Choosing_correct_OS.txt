@@ -1,0 +1,7 @@
+Choosing correct operating system is most important thing when you start with any simulation
+to start with three main components are Ardupilot,Gazebo and ROS. 
+These three will be co-ordinating with each other to make the simulation possible, 
+Ardupilot and Gazebo will use MAVLink whereas Gazebo and ROS will be using mavros.
+all these components have dependencies that are directly related to Operating system and
+Version of OS.
+This tutorial is published after 
