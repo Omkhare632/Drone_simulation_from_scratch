@@ -24,6 +24,16 @@ git submodule update --init --recursive
 ```
 sudo apt install python3-matplotlib python3-serial python3-wxgtk4.0 python3-lxml python3-scipy python3-opencv ccache gawk python3-pip python-pexpect
 ```
+
+If you are using Ubuntu 22.04, these are some additional directories you need to install:
+```
+sudo apt update
+sudo apt install git python3-dev python3-tk
+sudo apt install gawk cpp g++ gcc git gfortran make wget xz-utils
+sudo apt install python3-pyside2.qtopengl python3-pyside2.qtwebengine python3-pyside2.qtsvg
+sudo apt install python3-opencv python3-numpy python3-scipy python3-pygame
+```
+
 ### Install Mavproxy
 MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). 
 Read more about it at its __[official page](https://ardupilot.org/mavproxy/)__  
