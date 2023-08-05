@@ -125,3 +125,12 @@ This should work, try running the the command again.
 git config --global url."https://".insteadOf git://
 ```
 And then re-run the git submodule update command, it should run without any errors.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3. If you are using Ubuntu 22.04 the you might encounter error like Package ```'python3-wxgtk4.0' has no installation candidate```
+   To solve this just change:
+   ```
+    sudo apt install python-wxgtk3.0-0
+   ```
