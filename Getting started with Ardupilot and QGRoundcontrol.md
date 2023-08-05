@@ -26,3 +26,7 @@ for further process you will need to install pip installer
 ```
 sudo apt install python3-pip
 ```
+### Install Mavproxy
+MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). 
+Read more about it at its __[official page](https://ardupilot.org/mavproxy/)__
+We need to 
