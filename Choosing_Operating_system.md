@@ -4,17 +4,3 @@ We have tried 18.04, 20.04 and 22.04 for this simulation, methods and issues for
 We will be starting with getting Ardupilot repository then getting QGroundcontrol station,  later Gazebo simualtor and finally ROS.  
 Strating the discussion with ubuntu 18.04 and 20.04   
 
-Getting Ardupilot Repository Clone:  
-```
-cd ~
-sudo apt install git
-```
-Note  
-> We recomand to  download the Ardupilot reposiotry that we have uploaded just because we have used it from start to end of our project and it has all required files already present but you can also go with official Ardupilot resposiotory download that we ahve provided the the link in the below code.
-
-```
-git clone https://github.com/ArduPilot/ardupilot.git
-cd ardupilot
-git checkout Copter-3.6
-git submodule update --init --recursive
-```
