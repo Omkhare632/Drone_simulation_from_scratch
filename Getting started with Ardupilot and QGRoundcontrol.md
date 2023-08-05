@@ -18,7 +18,7 @@ cd ardupilot
 git checkout Copter-3.6
 git submodule update --init --recursive
 ```
-> Encountered an error in above code ?  
+> Encountered an error in the above code ?  
 > __[We have your back ](https://github.com)__
 #### Dependencies for Ardupilot
 ```
