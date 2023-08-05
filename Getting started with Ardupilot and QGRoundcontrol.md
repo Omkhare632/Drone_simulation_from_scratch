@@ -22,11 +22,7 @@ git submodule update --init --recursive
 > __[We have your back ](https://github.com)__
 #### Dependencies for Ardupilot
 ```
-sudo apt install python3-matplotlib python3-serial python3-wxgtk4.0 python3-lxml python3-scipy python3-opencv ccache gawk python-pexpect
-```
-for further process you will need to install pip installer
-```
-sudo apt install python3-pip
+sudo apt install python3-matplotlib python3-serial python3-wxgtk4.0 python3-lxml python3-scipy python3-opencv ccache gawk python3-pip python-pexpect
 ```
 ### Install Mavproxy
 MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). 
