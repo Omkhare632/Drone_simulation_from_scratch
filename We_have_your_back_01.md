@@ -1,5 +1,6 @@
 If you encounter something like:
-```error: Your local changes to the following files would be overwritten by checkout:
+```
+        error: Your local changes to the following files would be overwritten by checkout:
 	Rover/createTags
 	Tools/CPUInfo/output-PixFlamingo.txt
 	Tools/CodeStyle/ardupilot-astyle.sh
@@ -31,7 +32,7 @@ If you encounter something like:
 	Tools/autotest/fg_plane_view.sh
 	Tools/autotest/fg_quad_view.bat
 	Tools/autotest/fg_quad_view.sh
-  Tools/autotest/logger_metadata/enum_parse.py
+        Tools/autotest/logger_metadata/enum_parse.py
 	Tools/autotest/logger_metadata/parse.py
 	Tools/autotest/param_metadata/param_parse.py
 	Tools/autotest/param_metadata/rstemit.py
@@ -89,7 +90,7 @@ If you encounter something like:
 	Tools/bootloaders/CubeRedPrimary_bl.bin
 	Tools/bootloaders/CubeRedSecondary_bl.bin
 	Tools/bootloaders/CubeSolo_bl.bin
-  Tools/bootloaders/CubeYellow-bdshot_bl.bin
+        Tools/bootloaders/CubeYellow-bdshot_bl.bin
 	Tools/bootloaders/CubeYellow_bl.bin
 	Tools/bootloaders/CubeYellow_bl.elf
 	Tools/bootloaders/DrotekP3Pro_bl.bin
@@ -106,7 +107,7 @@ If you encounter something like:
 	Tools/bootloaders/FreeflyRTK_bl.bin
 	Tools/bootloaders/FreeflyRTK_bl.elf
 	Tool
-Aborting
+        Aborting
 ```
 While running ```git checkout Copter-3.6```
 Do not worry!
@@ -115,6 +116,7 @@ This might seem a really big error but is actually quite simple to solve, just r
 git stash
 ```
 This should work, try running the the command again.
+
 
 
 
