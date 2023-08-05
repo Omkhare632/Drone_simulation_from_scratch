@@ -1,4 +1,4 @@
-If you encounter something like:
+1. If you encounter something like:
 ```
         error: Your local changes to the following files would be overwritten by checkout:
 	Rover/createTags
@@ -63,7 +63,7 @@ If you encounter something like:
 	Tools/bootloaders/CUAV-X7_bl.bin
 	Tools/bootloaders/CUAV-X7_bl.elf
 	Tools/bootloaders/CUAV_GPS_bl.bin
-  Tools/bootloaders/CUAV_GPS_bl.elf
+        Tools/bootloaders/CUAV_GPS_bl.elf
 	Tools/bootloaders/CUAVv5-bdshot_bl.bin
 	Tools/bootloaders/CUAVv5Nano-bdshot_bl.bin
 	Tools/bootloaders/CUAVv5Nano_bl.bin
@@ -120,7 +120,7 @@ This should work, try running the the command again.
 
 
 
-```fatal: clone of 'git://github.com/UAVCAN/libuavcan.git' ``` into submodule path or a similar error for ```git submodule update --init --recursive``` then run the following command: 
+2. ```fatal: clone of 'git://github.com/UAVCAN/libuavcan.git' ``` into submodule path or a similar error for ```git submodule update --init --recursive``` then run the following command: 
 ```
 git config --global url."https://".insteadOf git://
 ```
