@@ -18,6 +18,8 @@ cd ardupilot
 git checkout Copter-3.6
 git submodule update --init --recursive
 ```
+> Encountered an error in above code ?  
+> __[We have your back ](https://github.com)__
 #### Dependencies for Ardupilot
 ```
 sudo apt install python3-matplotlib python3-serial python3-wxgtk4.0 python3-lxml python3-scipy python3-opencv ccache gawk python3-pip python-pexpect
