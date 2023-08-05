@@ -25,7 +25,7 @@ git submodule update --init --recursive
 sudo apt install python3-matplotlib python3-serial python3-wxgtk4.0 python3-lxml python3-scipy python3-opencv ccache gawk python3-pip python-pexpect
 ```
 
-If you are using Ubuntu 22.04, these are some additional directories you need to install:
+If you are using Ubuntu 22.04, these are some additional dependencies you need to install:
 ```
 sudo apt update
 sudo apt install git python3-dev python3-tk
@@ -36,9 +36,14 @@ sudo apt install python3-opencv python3-numpy python3-scipy python3-pygame
 
 ### Install Mavproxy
 MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). 
-Read more about it at its __[official page](https://ardupilot.org/mavproxy/)__  
-We need to open `.bashrc`
-It can be done using two methods 
+Read more about it at its __[official page](https://ardupilot.org/mavproxy/)__
+The command to install MavProxy:
+```
+pip3 install MAVProxy
+```
+
+The `.bashrc` needs to be edited:
+It can be opened using two methods: 
 ```
 nano ~/.bashrc
 ```
@@ -48,10 +53,15 @@ gedit ~/.bashrc
 ```
 Click here to __[know more about bashrc](https://github.com)__
 
-Once you have open .bashrc file, add below lines in the end of file
+Once you have opened the .bashrc file, add the following lines at the end of file:
 ```
 export PATH=$PATH:$HOME/ardupilot/Tools/autotest
 export PATH=/usr/lib/ccache:$PATH
 ```
-To save file in `nano` command, press `ctrl+x` and when asked to update to buffer press `y` and click `ENTER`  
-To save file in`gedit` command, press `ctrl+s` and `exit`
+To save the file in `nano` command, press `ctrl+x` and when asked to update to buffer press `y` and click `ENTER`  
+To save file in`gedit` command, press `ctrl+s` or click on the `save` button on the top right and `exit`
+
+To reload the `.bashrc` file, run the following command:
+```
+. ~/.bashrc
+```
