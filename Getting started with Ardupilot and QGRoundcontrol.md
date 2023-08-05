@@ -2,6 +2,8 @@
 Getting Ardupilot Repository Clone:   
 ```
 cd ~
+sudo apt update
+sudo apt upgrade
 sudo apt install git
 ```
 ###### Note:
@@ -21,3 +23,6 @@ git submodule update --init --recursive
 sudo apt install python3-matplotlib python3-serial python3-wxgtk4.0 python3-lxml python3-scipy python3-opencv ccache gawk python3-pip python-pexpect
 ```
 for further process you will need to install pip installer
+```
+sudo apt install python3-pip
+```
