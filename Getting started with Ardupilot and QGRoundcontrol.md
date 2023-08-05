@@ -65,3 +65,12 @@ To reload the `.bashrc` file, run the following command:
 ```
 . ~/.bashrc
 ```
+## Software In The Loop
+SITL (Software-In-The-Loop) is a simulation method for drones where flight control software is emulated on a computer. It allows testing, training, and software development without physical hardware. SITL interacts with external tools, providing a safe environment for experimenting with drone behaviors and algorithms. It's valuable for rapid iteration and system integration.
+you will come to learn use of SITL as we move on in the project.
+```
+cd ~/ardupilot/ArduCopter
+sim_vehicle.py -w
+```
+Here we are done with Ardupilot Setup :wink:
+### Setting up QGroundControl 
