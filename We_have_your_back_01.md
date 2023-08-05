@@ -119,7 +119,6 @@ This should work, try running the the command again.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 2.  ```fatal: clone of 'git://github.com/UAVCAN/libuavcan.git' ``` into submodule path or a similar error for ```git submodule update --init --recursive``` then run the following command: 
 ```
 git config --global url."https://".insteadOf git://
@@ -128,9 +127,8 @@ And then re-run the git submodule update command, it should run without any erro
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 3. If you are using Ubuntu 22.04 the you might encounter error like Package ```'python3-wxgtk4.0' has no installation candidate```
    To solve this just change:
-   ```
-    sudo apt install python3-wxgtk3.0-0
-   ```
+```
+ sudo apt install python3-wxgtk3.0-0
+```
