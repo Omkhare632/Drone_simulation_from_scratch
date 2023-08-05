@@ -26,5 +26,22 @@ sudo apt install python3-matplotlib python3-serial python3-wxgtk4.0 python3-lxml
 ```
 ### Install Mavproxy
 MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). 
-Read more about it at its __[official page](https://ardupilot.org/mavproxy/)__
-We need to 
+Read more about it at its __[official page](https://ardupilot.org/mavproxy/)__  
+We need to open `.bashrc`
+It can be done using two methods 
+```
+nano ~/.bashrc
+```
+or
+```
+gedit ~/.bashrc
+```
+Click here to __[know more about bashrc](https://github.com)__
+
+Once you have open .bashrc file, add below lines in the end of file
+```
+export PATH=$PATH:$HOME/ardupilot/Tools/autotest
+export PATH=/usr/lib/ccache:$PATH
+```
+To save file in `nano` command, press `ctrl+x` and when asked to update to buffer press `y` and click `ENTER`  
+To save file in`gedit` command, press `ctrl+s` and `exit`
