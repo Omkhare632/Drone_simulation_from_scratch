@@ -91,9 +91,20 @@ To download QGroundControl, run the following command:
 ```
 wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
 ```
-To change the permissions and run QGroundControl, run the following commands:
+To change the permissions, run the following commands:
 ```
-chmod +x ./QGroundControl.AppImage 
+chmod +x ./QGroundControl.AppImage
+```
+AppImages require FUSE (Filesystem in Userspace) to run. It is a kernel module, it allows users to make changes in the file as well as create their own file without modifying the system's kernel code. To install fuse run the following command:
+```
+sudo apt-get install fuse
+```
+To load the fuse kernel run the following command:
+```
+sudo modprobe fuse
+```
+Now, your QGroundControl is ready to be executed. You can run it with the help of the following command:
+``` 
 ./QGroundControl.AppImage
 ```
 ### Running QGroundControl with SITL
