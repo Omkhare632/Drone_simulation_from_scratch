@@ -116,6 +116,7 @@ This might seem a really big error but is actually quite simple to solve, just r
 git stash
 ```
 This should work, try running the the command again.
+The reason you might get this error is because you might have made changes in certain files and are trying to change branches, so this stashes the files and solves the problem.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
