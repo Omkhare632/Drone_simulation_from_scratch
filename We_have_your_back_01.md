@@ -147,7 +147,11 @@ sudo apt search package_name
 > > You can get packages that are used in lower versions of OS but dont install versions that only have supports for higher OS versions in a lower OS version, check compatibility first  
 
 
-  First __[search and download packages from here]()__
+  First __[search and download packages from here]()__   
+  Use the `cd` command to navigate to the folder where you downloaded the .deb package. For example, if you downloaded the package to your Downloads folder, you'd use:
+  ```
+  cd ~/Downloads
+  ```
   Use the dpkg command to install the downloaded package. Replace package-name.deb with the actual name of the package file.
 ```
 sudo dpkg -i package-name.deb
