@@ -133,3 +133,26 @@ And then re-run the git submodule update command, it should run without any erro
 ```
  sudo apt install python3-wxgtk3.0-0
 ```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. ```E:Package 'package_name' has no installation candidates```
+this messsage occurs because your installer is unable to find the package with mentioned name, check for spelling and remember its case sensitive or it may happen that mentioned version of package is not compitible with your current OS version, you can check the availability of package:
+```
+sudo apt search package_name
+```
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5. If packages are not available for the system but you still need it, you can install it manually but it has several risks, so this path is not recomanded as it may make generate system errors.
+> Note:
+> > You can get packages that are used in lower versions of OS but dont install versions that only have supports for higher OS versions in a lower OS version, check compatibility first  
+
+
+  First __[search and download packages from here]()__
+  Use the dpkg command to install the downloaded package. Replace package-name.deb with the actual name of the package file.
+```
+sudo dpkg -i package-name.deb
+```
+  If the package has dependencies that are not satisfied, you might see an error. In that case, you can use the following command to fix missing dependencies:
+```
+sudo apt-get install -f
+```
