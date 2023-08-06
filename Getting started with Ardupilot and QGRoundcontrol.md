@@ -76,7 +76,7 @@ cd ~/ardupilot/ArduCopter
 sim_vehicle.py -w
 ```
 > Encountered an error in the above code ?  
-> __[We have your back ](https://github.com)__
+> __[We have your back 02](https://github.com)__
 > 
 Here we are done with Ardupilot Setup :wink:
 ### Setting up QGroundControl 
