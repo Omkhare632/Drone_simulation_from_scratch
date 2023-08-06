@@ -47,3 +47,13 @@ If the error still doesn't go away, make the changes in these files as well:
 ```ardupilot/waf``` and ```ardupilot/wscript``` as:
 ```#!usr/bin/env python3```
 save it and now it should run.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+You can also get errors like these:
+ ```bash: /home/ok/ardupilot/Tools/autotest/sim_vehicle.py: Permission denied```
+Well all you have to do is enter this command in your home directory:
+```
+chmod +x /home/ok/ardupilot/Tools/autotest/sim_vehicle.py
+```
+What ```chmod``` does is it changes the read/write permissions so that you can access the required file or directory, so any error related to permission denied can be solved by using ```chmod```.
