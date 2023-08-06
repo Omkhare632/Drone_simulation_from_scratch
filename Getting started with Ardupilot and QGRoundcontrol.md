@@ -80,3 +80,25 @@ sim_vehicle.py -w
 > 
 Here we are done with Ardupilot Setup :wink:
 ### Setting up QGroundControl 
+The devices that use serial communication require direct communication over serial ports which requires access, the ```dialout``` group provides such access.
+Modemanager in the dialout group may try communication on its own, which can cause issues, so it needs to be removed.
+To create an account on dialout and remove modemanager, run the following commands:
+```
+sudo usermod -a -G dialout $USER
+sudo apt-get remove modemmanager
+```
+To download QGroundControl, run the following command:
+```
+wget https://s3-us-west-2.amazonaws.com/qgroundcontrol/latest/QGroundControl.AppImage
+```
+To change the permissions and run QGroundControl, run the following commands:
+```
+chmod +x ./QGroundControl.AppImage 
+./QGroundControl.AppImage
+```
+### Running QGroundControl with SITL
+Open a different terminal and run the following commands:
+```
+cd ~/ardupilot/ArduCopter/
+sim_vehicle.py
+```
