@@ -56,4 +56,4 @@ Well all you have to do is enter this command in your home directory:
 ```
 chmod +x /home/ok/ardupilot/Tools/autotest/sim_vehicle.py
 ```
-What ```chmod``` does is it changes the read/write permissions so that you can access the required file or directory, so any error related to permission denied can be solved by using ```chmod```.
+What ```chmod``` does is it changes the read/write permissions so that you can access the required file or directory, so any error related to ```permission denied``` can be solved by using ```chmod```.
