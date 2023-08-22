@@ -27,6 +27,6 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
    ```
    Installing ros:
    ```
-  sudo apt install ros-noetic-desktop-full
+   sudo apt install ros-noetic-desktop-full
    ```
  This is for Ubuntu 20.04, for other versions replace ```noetic``` with appropriate ros version (melodic, humble, etc)
