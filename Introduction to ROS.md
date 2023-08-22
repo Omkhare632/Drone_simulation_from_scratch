@@ -10,3 +10,23 @@ The version of ROS depends upon the version of Ubuntu you are using:
 ## Installing ROS:
 
 1. We need to setup our computer to accept the software from packages.ros.org
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```
+
+2. We need to set up our keys:
+```
+sudo apt install curl # if you haven't already installed curl
+curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+```
+
+3. We are ready to install ROS:  
+   Update the Debian package:
+   ```
+   sudo apt update
+   ```
+   Installing ros:
+   ```
+  sudo apt install ros-noetic-desktop-full
+   ```
+ This is for Ubuntu 20.04, for other versions replace ```noetic``` with appropriate ros version (melodic, humble, etc)
