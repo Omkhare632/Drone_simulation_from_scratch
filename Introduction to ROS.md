@@ -6,3 +6,7 @@ The version of ROS depends upon the version of Ubuntu you are using:
     For Ubuntu 18.04 : ROS Melodic  
     For Ubuntu 20.04 : ROS Noetic  
     For Ubuntu 22.04 : ROS Humble
+
+## Installing ROS:
+
+1. We need to setup our computer to accept the software from packages.ros.org
