@@ -57,3 +57,15 @@ sudo rosdep init
 rosdep update
 ```
 This is for Ubuntu 20.04 and higher versions, for other versions replace ```python3``` with ```python``` 
+
+## Setting up our workspace  
+We use ```catkin build``` instead of ```catkin_make```
+Install the following:
+```
+sudo apt-get install python3-wstool python3-rosinstall-generator python3-catkin-lint python3-pip python3-catkin-tools
+pip3 install osrf-pycommon
+```
+This is for Ubuntu 20.04 and higher versions, for 18.04:
+```
+sudo apt-get install python-wstool python-rosinstall-generator python-catkin-tools
+```
