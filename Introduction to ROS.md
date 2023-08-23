@@ -5,7 +5,11 @@ For more information you can check out its official site __[Official site](http:
 The version of ROS depends upon the version of Ubuntu you are using:  
     For Ubuntu 18.04 : ROS Melodic  
     For Ubuntu 20.04 : ROS Noetic  
-    For Ubuntu 22.04 : ROS Humble
+    For Ubuntu 22.04 : ROS Humble  
+
+ROS was updated to ROS2 and it is compatible with Ubuntu 22.04. But as both of these are new and not used by many people as of yet, you might face some difficulties.  
+Ubuntu 18.04 and 20.04 are compatible with ROS, but Ubuntu 18.04 is a bit more older and less suitable since it has little support for some required files and libraries.  
+Ubuntu 20.04 is the right version as it is not too old nor too new and you will find projects and solutions to problems easily for Ubuntu 20.04 and ROS.
 
 ## Installing ROS:
 
