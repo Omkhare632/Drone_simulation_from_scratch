@@ -69,3 +69,9 @@ This is for Ubuntu 20.04 and higher versions, for 18.04:
 ```
 sudo apt-get install python-wstool python-rosinstall-generator python-catkin-tools
 ```
+Initialixing the workspace:
+```
+mkdir -p ~/catkin_ws/src
+cd ~/catkin_ws
+catkin init
+```
