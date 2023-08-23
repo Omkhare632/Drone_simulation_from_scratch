@@ -75,3 +75,5 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 catkin init
 ```
+
+## Installing mavros and mavlink  
