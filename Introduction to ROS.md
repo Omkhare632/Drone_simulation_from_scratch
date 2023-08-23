@@ -47,4 +47,13 @@ We have installed the core ros packages, now we need to install tools that will 
 ```
 sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 ```
-This is for Ubuntu 20.04 and higher versions, for other versions replace ```python3``` with ```python```
+This is for Ubuntu 20.04 and higher versions, for other versions replace ```python3``` with ```python```  
+
+6. Initializing rosdep
+rosdep enables you to use some core ROS libraries, also makes it easier to install the required dependencies.
+```
+sudo apt install python3-rosdep
+sudo rosdep init
+rosdep update
+```
+This is for Ubuntu 20.04 and higher versions, for other versions replace ```python3``` with ```python``` 
