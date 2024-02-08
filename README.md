@@ -1,5 +1,5 @@
 Hey there!  
-This tutorial is based on our project experience from our internship at DRDO.  
+This tutorial is based on our project experience from our internship at DIAT,DRDO.  
 We have worked on :  
 "Autonomous collision avoidance of drone swarm using image processing"  
 This tutorial will guide you on following topics:  
